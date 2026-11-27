@@ -1,0 +1,626 @@
+{
+ "atualizadoEm": "2026-11-27T13:41:38.515Z",
+ "totalUnidades": 40,
+ "familias": [
+  {
+   "id": "onix",
+   "nome": "Onix",
+   "tipo": "Hatch",
+   "sobre": "Hatch econômico e conectado, com versões 1.0 aspirado e 1.0 Turbo, manuais e automáticas, e central multimídia com espelhamento sem fio.",
+   "site": "https://www.chevrolet.com.br/carros/novo-onix"
+  },
+  {
+   "id": "onixplus",
+   "nome": "Onix Plus",
+   "tipo": "Sedã",
+   "sobre": "Sedã compacto com porta-malas amplo, motor 1.0 ou 1.0 Turbo econômico e central multimídia com Android Auto e Apple CarPlay sem fio.",
+   "site": "https://www.chevrolet.com.br/carros/novo-onix-plus"
+  },
+  {
+   "id": "tracker",
+   "nome": "Tracker",
+   "tipo": "SUV",
+   "sobre": "SUV com posição de dirigir elevada, motor turbo e câmbio automático. Espaço e conforto para a família no dia a dia e na estrada.",
+   "site": "https://www.chevrolet.com.br/suvs/novo-tracker"
+  },
+  {
+   "id": "sonic",
+   "nome": "Sonic",
+   "tipo": "SUV Cupê",
+   "sobre": "SUV cupê com visual esportivo, motor 1.0 Turbo de 115 cv, câmbio automático e faróis full LED.",
+   "site": "https://www.chevrolet.com.br/suvs/sonic"
+  },
+  {
+   "id": "spark",
+   "nome": "Spark EUV",
+   "tipo": "SUV 100% elétrico",
+   "sobre": "SUV 100% elétrico, silencioso e com custo de rodagem baixíssimo. Carrega em casa ou em eletropostos.",
+   "site": "https://www.chevrolet.com.br/eletrico/spark-euv"
+  },
+  {
+   "id": "s10",
+   "nome": "S10",
+   "tipo": "Picape",
+   "sobre": "Picape média com motor 2.8 Turbo Diesel Duramax, tração 4x4 e robustez para o trabalho e para a estrada.",
+   "site": "https://www.chevrolet.com.br/picapes/s10"
+  }
+ ],
+ "veiculos": [
+  {
+   "id": "onix-onix-hatch-mt-azul-boreal-0",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch MT",
+   "cor": "Azul Boreal",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L ASPIRADO 82CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "227628"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/mt/exterior/azulboreal/onix-10-mt-azul-boreal-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH MT|AZUL BOREAL",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-mt-preto-ouro-negro-1",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch MT",
+   "cor": "Preto Ouro Negro",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L ASPIRADO 82CV",
+   "corInterna": "Jet Black",
+   "unidades": 6,
+   "locais": [
+    "Barra do Garças",
+    "Campo Novo do Parecis",
+    "Nova Mutum",
+    "Tangará da Serra",
+    "Em trânsito"
+   ],
+   "refs": [
+    "133223",
+    "133305",
+    "164462",
+    "186543",
+    "186547",
+    "203608"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/mt/exterior/pretoouronegro/onix-10-mt-preto-ouro-negro-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH MT|PRETO OURO NEGRO",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-mt-pro-preto-ouro-negro-2",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch MT Pro",
+   "cor": "Preto Ouro Negro",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L ASPIRADO 82CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "126069"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/mt/exterior/pretoouronegro/onix-10-mt-preto-ouro-negro-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH MT PRO|PRETO OURO NEGRO",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-turbo-activ-branco-summit-3",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch Turbo Activ",
+   "cor": "Branco Summit",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Nova Mutum"
+   ],
+   "refs": [
+    "165824"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/activ/exterior/brancosummit/onix-activ-branco-summit-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH TURBO ACTIV|BRANCO SUMMIT",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-turbo-activ-prata-shark-4",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch Turbo Activ",
+   "cor": "Prata Shark",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 2,
+   "locais": [
+    "Campo Novo do Parecis",
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "180080",
+    "185353"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/activ/exterior/pratashark/onix-activ-prata-shark-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH TURBO ACTIV|PRATA SHARK",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-turbo-activ-preto-ouro-negro-5",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch Turbo Activ",
+   "cor": "Preto Ouro Negro",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "186170"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/activ/exterior/pretoouronegro/onix-activ-preto-ouro-negro-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH TURBO ACTIV|PRETO OURO NEGRO",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-turbo-eco-azul-boreal-6",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch Turbo Eco",
+   "cor": "Azul Boreal",
+   "ano": "26/27",
+   "combustivel": "Etanol",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Nova Mutum"
+   ],
+   "refs": [
+    "170504"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/lt-turbo/exterior/azulboreal/onix-turbo-at-azul-boreal-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH TURBO ECO|AZUL BOREAL",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-turbo-premier-branco-summit-7",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch Turbo Premier",
+   "cor": "Branco Summit",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Acab Int(4h2) Jet Black / Tbd Accent",
+   "unidades": 1,
+   "locais": [
+    "Campo Novo do Parecis"
+   ],
+   "refs": [
+    "178819"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/premier/exterior/brancosummit/onix-premier-branco-summit-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH TURBO PREMIER|BRANCO SUMMIT",
+   "imgExata": true
+  },
+  {
+   "id": "onix-onix-hatch-turbo-premier-prata-shark-8",
+   "familia": "onix",
+   "familiaNome": "Onix",
+   "modelo": "Onix Hatch Turbo Premier",
+   "cor": "Prata Shark",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Acab Int(4h2) Jet Black / Tbd Accent",
+   "unidades": 1,
+   "locais": [
+    "Barra do Garças"
+   ],
+   "refs": [
+    "179629"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/premier/exterior/pratashark/v2-onix-premier-prata-shark-ext.001.png?imwidth=960",
+   "imgChave": "ONIX HATCH TURBO PREMIER|PRATA SHARK",
+   "imgExata": true
+  },
+  {
+   "id": "onixplus-onix-plus-turbo-eco-vermelho-scarlet-9",
+   "familia": "onixplus",
+   "familiaNome": "Onix Plus",
+   "modelo": "Onix Plus Turbo Eco",
+   "cor": "Vermelho Scarlet",
+   "ano": "26/27",
+   "combustivel": "Etanol",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "118453"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix-plus/refresh/colorizer/trims/at/exterior/vermelhoscarlet/onix-plus-at-vermelho-scarlet-ext.001.png?imwidth=960",
+   "imgChave": "ONIX PLUS TURBO ECO|VERMELHO SCARLET",
+   "imgExata": true
+  },
+  {
+   "id": "tracker-tracker-at-branco-summit-10",
+   "familia": "tracker",
+   "familiaNome": "Tracker",
+   "modelo": "Tracker AT",
+   "cor": "Branco Summit",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 4,
+   "locais": [
+    "Barra do Garças",
+    "Nova Mutum"
+   ],
+   "refs": [
+    "125638",
+    "136640",
+    "147154",
+    "147155"
+   ],
+   "reservado": false,
+   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GAZ-0001.webp",
+   "imgChave": "TRACKER AT|BRANCO SUMMIT",
+   "imgExata": true
+  },
+  {
+   "id": "tracker-tracker-at-prata-shark-11",
+   "familia": "tracker",
+   "familiaNome": "Tracker",
+   "modelo": "Tracker AT",
+   "cor": "Prata Shark",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "155905"
+   ],
+   "reservado": false,
+   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GR2-0001.webp",
+   "imgChave": "TRACKER AT|PRATA SHARK",
+   "imgExata": true
+  },
+  {
+   "id": "tracker-tracker-at-preto-ouro-negro-12",
+   "familia": "tracker",
+   "familiaNome": "Tracker",
+   "modelo": "Tracker AT",
+   "cor": "Preto Ouro Negro",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 2,
+   "locais": [
+    "Nova Mutum",
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "137298",
+    "149641"
+   ],
+   "reservado": false,
+   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GB8-0001.webp",
+   "imgChave": "TRACKER AT|PRETO OURO NEGRO",
+   "imgExata": true
+  },
+  {
+   "id": "tracker-tracker-rs-branco-summit-13",
+   "familia": "tracker",
+   "familiaNome": "Tracker",
+   "modelo": "Tracker RS",
+   "cor": "Branco Summit",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.2 TURBO - 141CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Barra do Garças"
+   ],
+   "refs": [
+    "147492"
+   ],
+   "reservado": false,
+   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5D76TV_RG0/GAZ-0001.webp",
+   "imgChave": "TRACKER RS|BRANCO SUMMIT",
+   "imgExata": true
+  },
+  {
+   "id": "sonic-sonic-premier-branco-summit-14",
+   "familia": "sonic",
+   "familiaNome": "Sonic",
+   "modelo": "Sonic Premier",
+   "cor": "Branco Summit",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black e Cinza Storm Sky",
+   "unidades": 1,
+   "locais": [
+    "Barra do Garças"
+   ],
+   "refs": [
+    "188006"
+   ],
+   "reservado": false,
+   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EE58%2F1EE58__PR1%2FCV2_GAZ_H2G_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
+   "imgChave": "SONIC PREMIER|BRANCO SUMMIT",
+   "imgExata": true
+  },
+  {
+   "id": "sonic-sonic-premier-cinza-urbano-15",
+   "familia": "sonic",
+   "familiaNome": "Sonic",
+   "modelo": "Sonic Premier",
+   "cor": "Cinza Urbano",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 2,
+   "locais": [
+    "Barra do Garças",
+    "Nova Mutum"
+   ],
+   "refs": [
+    "162736",
+    "173524"
+   ],
+   "reservado": false,
+   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EE58%2F1EE58__PR1%2FCV2_GRE_H2G_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
+   "imgChave": "SONIC PREMIER|CINZA URBANO",
+   "imgExata": true
+  },
+  {
+   "id": "sonic-sonic-premier-prata-shark-16",
+   "familia": "sonic",
+   "familiaNome": "Sonic",
+   "modelo": "Sonic Premier",
+   "cor": "Prata Shark",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black e Cinza Storm Sky",
+   "unidades": 1,
+   "locais": [
+    "Campo Novo do Parecis"
+   ],
+   "refs": [
+    "174962"
+   ],
+   "reservado": false,
+   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EE58%2F1EE58__PR1%2FCV2_GR2_H2G_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
+   "imgChave": "SONIC PREMIER|PRATA SHARK",
+   "imgExata": true
+  },
+  {
+   "id": "sonic-sonic-premier-preto-ouro-negro-17",
+   "familia": "sonic",
+   "familiaNome": "Sonic",
+   "modelo": "Sonic Premier",
+   "cor": "Preto Ouro Negro",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 2,
+   "locais": [
+    "Nova Mutum",
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "139890",
+    "175773"
+   ],
+   "reservado": false,
+   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EE58%2F1EE58__PR1%2FCV2_GB8_H2G_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
+   "imgChave": "SONIC PREMIER|PRETO OURO NEGRO",
+   "imgExata": true
+  },
+  {
+   "id": "sonic-sonic-rs-branco-summit-18",
+   "familia": "sonic",
+   "familiaNome": "Sonic",
+   "modelo": "Sonic RS",
+   "cor": "Branco Summit",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black Detalhes Em Vermelho",
+   "unidades": 3,
+   "locais": [
+    "Campo Novo do Parecis",
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "173732",
+    "146441",
+    "193139"
+   ],
+   "reservado": false,
+   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EF58%2F1EF58__1RS%2F94T_CV2_GAZ_H5H_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
+   "imgChave": "SONIC RS|BRANCO SUMMIT",
+   "imgExata": true
+  },
+  {
+   "id": "sonic-sonic-rs-cinza-urbano-19",
+   "familia": "sonic",
+   "familiaNome": "Sonic",
+   "modelo": "Sonic RS",
+   "cor": "Cinza Urbano",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black Detalhes Em Vermelho",
+   "unidades": 1,
+   "locais": [
+    "Tangará da Serra"
+   ],
+   "refs": [
+    "172585"
+   ],
+   "reservado": false,
+   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EF58%2F1EF58__1RS%2F94T_CV2_GRE_H5H_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
+   "imgChave": "SONIC RS|CINZA URBANO",
+   "imgExata": true
+  },
+  {
+   "id": "sonic-sonic-rs-vermelho-scarlet-20",
+   "familia": "sonic",
+   "familiaNome": "Sonic",
+   "modelo": "Sonic RS",
+   "cor": "Vermelho Scarlet",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black Detalhes Em Vermelho",
+   "unidades": 1,
+   "locais": [
+    "Nova Mutum"
+   ],
+   "refs": [
+    "150377"
+   ],
+   "reservado": false,
+   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EF58%2F1EF58__1RS%2F94T_CV2_GFP_H5H_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
+   "imgChave": "SONIC RS|VERMELHO SCARLET",
+   "imgExata": true
+  },
+  {
+   "id": "spark-spark-euv-azul-atlantico-21",
+   "familia": "spark",
+   "familiaNome": "Spark EUV",
+   "modelo": "Spark EUV",
+   "cor": "Azul Atlântico",
+   "ano": "26/27",
+   "combustivel": "Elétrico",
+   "motor": "ELÉTRICO 75KW (102CV)",
+   "corInterna": "Sandy Soul",
+   "unidades": 1,
+   "locais": [
+    "Em trânsito"
+   ],
+   "refs": [
+    "073071"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/electric/spark-euv/refresh/colorizer/trims/euv/exterior/azulatlantico/my27-spark-euv-eva1-g9h-ext.001.png?imwidth=960",
+   "imgChave": "SPARK EUV|AZUL ATLANTICO",
+   "imgExata": true
+  },
+  {
+   "id": "spark-spark-euv-branco-cupuacu-22",
+   "familia": "spark",
+   "familiaNome": "Spark EUV",
+   "modelo": "Spark EUV",
+   "cor": "Branco Cupuaçu",
+   "ano": "26/27",
+   "combustivel": "Elétrico",
+   "motor": "ELÉTRICO 75KW (102CV)",
+   "corInterna": "Acab Int(19i) Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Barra do Garças"
+   ],
+   "refs": [
+    "073830"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/electric/spark-euv/refresh/colorizer/trims/euv/exterior/brancocupuacu/my27-spark-euv-eva1-04u-ext.001.png?imwidth=960",
+   "imgChave": "SPARK EUV|BRANCO CUPUACU",
+   "imgExata": true
+  },
+  {
+   "id": "spark-spark-euv-preto-rio-negro-23",
+   "familia": "spark",
+   "familiaNome": "Spark EUV",
+   "modelo": "Spark EUV",
+   "cor": "Preto Rio Negro",
+   "ano": "26/27",
+   "combustivel": "Elétrico",
+   "motor": "ELÉTRICO 75KW (102CV)",
+   "corInterna": "Sandy Soul",
+   "unidades": 2,
+   "locais": [
+    "Nova Mutum",
+    "Em trânsito"
+   ],
+   "refs": [
+    "074020",
+    "073529"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/electric/spark-euv/refresh/colorizer/trims/euv/exterior/pretorionegro/my27-spark-euv-eva1-82u-ext.001.png?imwidth=960",
+   "imgChave": "SPARK EUV|PRETO RIO NEGRO",
+   "imgExata": true
+  },
+  {
+   "id": "s10-s10-ltz-cd-4x4-branco-dunas-24",
+   "familia": "s10",
+   "familiaNome": "S10",
+   "modelo": "S10 LTZ CD 4X4",
+   "cor": "Branco Dunas",
+   "ano": "26/27",
+   "combustivel": "Diesel",
+   "motor": "2.8L DURAMAX 207CV",
+   "corInterna": "Jet Black Dark Ash Gray",
+   "unidades": 1,
+   "locais": [
+    "Nova Mutum"
+   ],
+   "refs": [
+    "426979"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/pickups-and-trucks/2026-s10/mov/colorizer-360/trims/ltz/exterior/branco-dunas/v2-ltz-branco-dunas-ext.001.png?imwidth=960",
+   "imgChave": "S10 LTZ CD 4X4|BRANCO DUNAS",
+   "imgExata": true
+  }
+ ]
+}

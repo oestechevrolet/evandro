@@ -1,6 +1,6 @@
 {
- "atualizadoEm": "2026-11-27T13:41:38.515Z",
- "totalUnidades": 40,
+ "atualizadoEm": "2026-11-27T14:41:09.051Z",
+ "totalUnidades": 41,
  "familias": [
   {
    "id": "onix",
@@ -287,16 +287,18 @@
    "combustivel": "Flex",
    "motor": "1.0L TURBO 115 CV",
    "corInterna": "Jet Black",
-   "unidades": 4,
+   "unidades": 5,
    "locais": [
     "Barra do Garças",
-    "Nova Mutum"
+    "Nova Mutum",
+    "Em trânsito"
    ],
    "refs": [
     "125638",
     "136640",
+    "147155",
     "147154",
-    "147155"
+    "167603"
    ],
    "reservado": false,
    "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GAZ-0001.webp",
@@ -304,29 +306,7 @@
    "imgExata": true
   },
   {
-   "id": "tracker-tracker-at-prata-shark-11",
-   "familia": "tracker",
-   "familiaNome": "Tracker",
-   "modelo": "Tracker AT",
-   "cor": "Prata Shark",
-   "ano": "26/27",
-   "combustivel": "Flex",
-   "motor": "1.0L TURBO 115 CV",
-   "corInterna": "Jet Black",
-   "unidades": 1,
-   "locais": [
-    "Tangará da Serra"
-   ],
-   "refs": [
-    "155905"
-   ],
-   "reservado": false,
-   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GR2-0001.webp",
-   "imgChave": "TRACKER AT|PRATA SHARK",
-   "imgExata": true
-  },
-  {
-   "id": "tracker-tracker-at-preto-ouro-negro-12",
+   "id": "tracker-tracker-at-preto-ouro-negro-11",
    "familia": "tracker",
    "familiaNome": "Tracker",
    "modelo": "Tracker AT",
@@ -347,6 +327,28 @@
    "reservado": false,
    "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GB8-0001.webp",
    "imgChave": "TRACKER AT|PRETO OURO NEGRO",
+   "imgExata": true
+  },
+  {
+   "id": "tracker-tracker-premier-cinza-ambar-12",
+   "familia": "tracker",
+   "familiaNome": "Tracker",
+   "modelo": "Tracker Premier",
+   "cor": "Cinza Âmbar",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.2 TURBO - 141CV",
+   "corInterna": "Acab Int(4bn) Jet Black / Color1",
+   "unidades": 1,
+   "locais": [
+    "Em trânsito"
+   ],
+   "refs": [
+    "109409"
+   ],
+   "reservado": false,
+   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5Y76TV_R8I/GEK-0001.webp",
+   "imgChave": "TRACKER PREMIER|CINZA AMBAR",
    "imgExata": true
   },
   {

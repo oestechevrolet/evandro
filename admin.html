@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Administrador · Atualizar estoque</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  body{background:#eef2f7}
+  .wrap{max-width:1000px;margin:0 auto;padding:18px 16px 60px}
+  .bar{background:var(--marinho);color:#fff;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .bar h1{font-size:18px;margin:0}.bar a{color:#fff;font-size:13px;opacity:.85}
+  .painel{background:#fff;border-radius:14px;box-shadow:var(--sombra);padding:20px;margin-top:18px}
+  .painel h2{font-size:17px;margin:0 0 4px;display:flex;align-items:center;gap:10px}
+  .painel h2 .n{width:26px;height:26px;border-radius:50%;background:var(--ouro);color:var(--marinho);display:grid;place-items:center;font-size:14px}
+  .painel>p{color:var(--sub);font-size:13.5px;margin:4px 0 14px;line-height:1.5}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .drop{display:block;border:2px dashed #b8c4d4;border-radius:14px;padding:34px 16px;text-align:center;cursor:pointer;background:#f8fafc;transition:.15s}
+  .drop.sobre{border-color:var(--azul);background:#eaf2fd}
+  .drop b{display:block;font-size:16px;color:var(--marinho);margin-bottom:4px}
+  .drop span{font-size:13px;color:var(--sub)}
+  .status{font-size:13.5px;padding:10px 12px;border-radius:10px;margin-top:12px;display:none;line-height:1.45}
+  .status.ok{display:block;background:#e5f7ec;color:#14632f}.status.erro{display:block;background:#fdecea;color:#8a1c12}.status.info{display:block;background:#eaf2fd;color:#0a3d7a}
+  .kpis{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 14px}
+  .kpi{background:#f3f6fa;border-radius:10px;padding:10px 14px;min-width:120px}.kpi b{display:block;font-size:22px;color:var(--marinho)}.kpi small{color:var(--sub);font-size:12px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;color:var(--sub);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;padding:8px 6px;border-bottom:1.5px solid var(--linha)}
+  td{padding:8px 6px;border-bottom:1px solid var(--linha);vertical-align:middle}
+  td img{width:92px;height:52px;object-fit:contain;background:#f3f6fa;border-radius:6px}
+  td input{width:100%;min-width:140px;border:1.5px solid var(--linha);border-radius:8px;padding:6px 8px;font-size:12px}
+  .tag{font-size:11px;font-weight:700;border-radius:6px;padding:2px 6px;white-space:nowrap}.tag.ok{background:#e5f7ec;color:#14632f}.tag.aprox{background:#fff4d6;color:#7a5600}
+  .tabela{overflow:auto;max-height:520px}
+  .linha-botoes{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .linha-botoes .btn{flex:1;min-width:200px}
+  .campo small{color:var(--sub);font-size:12px}
+  details{font-size:13.5px;color:var(--sub);margin-top:10px}summary{cursor:pointer;color:var(--azul);font-weight:600}
+  details ol{line-height:1.6;padding-left:20px}
+</style>
+</head>
+<body>
+<div class="bar"><h1>Administrador · Estoque do Cartão Digital</h1><a href="./" target="_blank">Abrir o site público ↗</a></div>
+<div class="wrap">
+
+  <section class="painel" id="pConexao">
+    <h2><span class="n">1</span>Conexão com o GitHub</h2>
+    <p>Feito uma única vez neste computador/celular. Os dados ficam salvos só neste navegador.</p>
+    <div class="grid2">
+      <div class="campo"><label for="gOwner">Usuário ou organização</label><input id="gOwner" placeholder="ex.: oesteveiculos"></div>
+      <div class="campo"><label for="gRepo">Repositório</label><input id="gRepo" placeholder="ex.: evandro"></div>
+      <div class="campo"><label for="gBranch">Branch</label><input id="gBranch" value="main"></div>
+    </div>
+    <div class="campo" style="margin-top:12px"><label for="gToken">Token de acesso (fine-grained, permissão "Contents: Read and write")</label>
+      <input id="gToken" type="password" autocomplete="off" placeholder="github_pat_…"><small>Nunca compartilhe este token. Ele só dá acesso a este repositório.</small></div>
+    <div class="linha-botoes"><button class="btn btn-marinho" id="gSalvar">Salvar e testar conexão</button><button class="btn btn-claro" id="gEsquecer">Esquecer neste aparelho</button></div>
+    <div class="status" id="gStatus"></div>
+    <details><summary>Como gerar o token</summary><ol>
+      <li>No GitHub, clique na sua foto → <b>Settings</b> → <b>Developer settings</b> → <b>Personal access tokens</b> → <b>Fine-grained tokens</b> → <b>Generate new token</b>.</li>
+      <li>Em <b>Repository access</b>, escolha <b>Only select repositories</b> e marque só o repositório do site.</li>
+      <li>Em <b>Permissions → Repository permissions → Contents</b>, escolha <b>Read and write</b>.</li>
+      <li>Gere, copie e cole aqui. Defina uma validade (ex.: 1 ano) e gere outro quando vencer.</li>
+    </ol></details>
+  </section>
+
+  <section class="painel">
+    <h2><span class="n">2</span>Enviar a planilha de estoque</h2>
+    <p>Exporte o estoque no DMS e arraste o arquivo aqui (CSV ou Excel). Preço, nome de quem reservou, pedido de fábrica e dias de estoque <b>não</b> vão para o site — só o que o cliente pode ver.</p>
+    <label class="drop" id="drop"><input type="file" id="arquivo" accept=".csv,.txt,.xlsx,.xls" hidden>
+      <b>Toque para escolher ou arraste o arquivo</b><span>estoque.csv · estoque.xlsx</span></label>
+    <div class="status" id="aStatus"></div>
+  </section>
+
+  <section class="painel" id="pPrevia" hidden>
+    <h2><span class="n">3</span>Conferir e publicar</h2>
+    <div class="kpis" id="kpis"></div>
+    <p>Confira as fotos. Onde aparecer <span class="tag aprox">aproximada</span>, a Chevrolet não tem foto exata daquela versão/cor — você pode colar o link de outra imagem (fica salvo para as próximas atualizações).</p>
+    <div class="tabela"><table><thead><tr><th>Foto</th><th>Veículo</th><th>Qtd</th><th>Onde</th><th>Foto</th><th>Trocar imagem (link)</th></tr></thead><tbody id="tbody"></tbody></table></div>
+    <div class="linha-botoes">
+      <button class="btn btn-verde" id="publicar">Publicar no site</button>
+      <button class="btn btn-claro" id="baixar">Baixar estoque.json (envio manual)</button>
+    </div>
+    <div class="status" id="pStatus"></div>
+  </section>
+</div>
+
+<script src="assets/config.js"></script>
+<script src="assets/catalogo.js"></script>
+<script src="assets/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evandro Oliveira · Consultor de Vendas Chevrolet · Oeste Veículos</title>
+<meta name="description" content="Cartão digital do Evandro Oliveira, consultor Chevrolet na Oeste Veículos. Veja o estoque a pronta entrega e simule seu financiamento.">
+<meta property="og:title" content="Evandro Oliveira · Consultor Chevrolet">
+<meta property="og:description" content="Veja os Chevrolet a pronta entrega e fale comigo no WhatsApp.">
+<meta property="og:image" content="assets/evandro.jpg">
+<meta name="theme-color" content="#0a2240">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="marca">Cartão Digital · <b>Chevrolet</b></div>
+</header>
+
+<main>
+  <section class="cartao">
+    <div class="avatar"><div id="avatar"></div></div>
+    <h1 id="nome"></h1>
+    <p class="cargo" id="cargo"></p>
+    <span class="empresa" id="empresa"></span>
+    <div class="acoes">
+      <a class="btn btn-verde" id="btnWhats" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>Falar no WhatsApp</a>
+      <a class="btn btn-marinho" href="#estoque"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M6 17l1.5-6h9L18 17M7.5 11l1.5-4h6l1.5 4"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>Ver carros a pronta entrega</a>
+      <button class="btn btn-roxo" data-financiar=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h4M7 16h4M15 12h2M15 16h2"/></svg>Simular financiamento</button>
+      <a class="btn btn-insta" id="btnInsta" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>Me siga no Instagram</a>
+    </div>
+  </section>
+
+  <section class="secao" id="estoque">
+    <div class="secao-cab">
+      <h2>Pronta entrega</h2>
+      <p id="resumo">Carregando estoque…</p>
+    </div>
+    <div class="filtros" id="filtros" role="group" aria-label="Filtrar por modelo"></div>
+    <div class="filtro-local"><select id="filtroLocal" aria-label="Filtrar por cidade"><option value="">Todas as cidades</option></select></div>
+    <div class="grade" id="grade"></div>
+  </section>
+</main>
+
+<footer>
+  <b id="rodapeNome"></b> · <span id="rodapeEmpresa"></span><br>
+  Imagens ilustrativas do site oficial Chevrolet. Disponibilidade sujeita a confirmação.<br>
+  Consulte condições e valores diretamente comigo.
+</footer>
+
+<a class="flutuante" id="flutuante" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></a>
+
+<!-- Detalhes do carro -->
+<div class="modal" id="mDetalhe" role="dialog" aria-modal="true" aria-labelledby="detTitulo">
+  <div class="caixa">
+    <button class="fechar" data-fechar aria-label="Fechar">×</button>
+    <div class="det-foto"><img id="detImg" alt=""></div>
+    <div class="det-corpo">
+      <h3 id="detTitulo"></h3>
+      <p class="tipo" id="detTipo"></p>
+      <div class="ficha" id="detFicha"></div>
+      <p class="sobre" id="detSobre"></p>
+      <a class="oficial" id="detSite" target="_blank" rel="noopener">Ver todos os detalhes no site oficial Chevrolet →</a>
+      <div class="acoes" style="margin-top:16px">
+        <a class="btn btn-verde" id="detWhats" target="_blank" rel="noopener">Tenho interesse neste carro</a>
+        <button class="btn btn-roxo" id="detFin">Simular financiamento</button>
+      </div>
+      <p class="aviso">Imagem ilustrativa. Itens e acabamentos podem variar conforme a versão.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Simulação de financiamento -->
+<div class="modal" id="mFin" role="dialog" aria-modal="true" aria-labelledby="finTitulo">
+  <div class="caixa">
+    <button class="fechar" data-fechar aria-label="Fechar">×</button>
+    <div class="fin-topo">
+      <div class="avatar"><div id="avatarFin"></div></div>
+      <small>Simulação online</small>
+      <h3 id="finTitulo">Financiamento</h3>
+    </div>
+    <form class="fin" id="formFin" novalidate>
+      <div class="campo"><label for="fNome">Nome completo</label><input id="fNome" name="Nome" autocomplete="name" required><div class="erro">Informe seu nome completo.</div></div>
+      <div class="duas">
+        <div class="campo"><label for="fNasc">Data de nascimento</label><input id="fNasc" name="Nascimento" type="date" required><div class="erro">Informe a data.</div></div>
+        <div class="campo"><label for="fCPF">CPF</label><input id="fCPF" name="CPF" inputmode="numeric" placeholder="000.000.000-00" required><div class="erro">CPF inválido.</div></div>
+      </div>
+      <div class="campo"><label for="fTel">Telefone / WhatsApp do titular</label><input id="fTel" name="Telefone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(65) 99999-9999" required><div class="erro">Informe um telefone com DDD.</div></div>
+      <div class="campo"><label for="fVeic">Veículo de interesse</label><select id="fVeic" name="Veiculo" required></select><div class="erro">Escolha o veículo.</div></div>
+      <div class="duas">
+        <div class="campo"><label for="fEntrada">Valor de entrada</label><input id="fEntrada" name="Entrada" inputmode="numeric" placeholder="R$ 0,00"></div>
+        <div class="campo"><label for="fPrazo">Prazo</label><select id="fPrazo" name="Prazo"></select></div>
+      </div>
+      <div class="campo"><label>Possui CNH?</label>
+        <div class="radios"><label><input type="radio" name="CNH" value="Possuo CNH" checked> Possuo</label><label><input type="radio" name="CNH" value="Não possuo CNH"> Não possuo</label></div>
+      </div>
+      <label class="consent"><input type="checkbox" id="fOk" required> Autorizo o envio destes dados ao consultor para análise de crédito e contato sobre a simulação.</label>
+      <button class="btn btn-verde" type="submit" id="fEnviar">Enviar simulação</button>
+    </form>
+    <div class="ok" id="finOk" hidden>
+      <div class="icone">✓</div>
+      <h3>Simulação enviada!</h3>
+      <p id="finOkTexto">Recebi seus dados e vou te retornar em breve com as melhores condições.</p>
+      <a class="btn btn-verde" id="finOkWhats" target="_blank" rel="noopener">Agilizar pelo WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@ window.CONFIG = {
   foto: "assets/evandro.jpg",
 
   // WhatsApp: só números, com 55 + DDD. Confira se o número tem o 9 na frente.
-  whatsapp: "556592837091",
+  whatsapp: "5565992837091",
   mensagemPadrao: "Olá, Evandro! Vim pelo seu Cartão Digital e quero saber as condições Chevrolet deste mês.",
 
   instagram: "evanndrooliveira",

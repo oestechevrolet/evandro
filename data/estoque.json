@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T14:41:09.051Z",
+ "atualizadoEm": "2026-11-28T12:30:05.229Z",
  "totalUnidades": 41,
  "familias": [
   {
@@ -47,29 +47,7 @@
  ],
  "veiculos": [
   {
-   "id": "onix-onix-hatch-mt-azul-boreal-0",
-   "familia": "onix",
-   "familiaNome": "Onix",
-   "modelo": "Onix Hatch MT",
-   "cor": "Azul Boreal",
-   "ano": "26/27",
-   "combustivel": "Flex",
-   "motor": "1.0L ASPIRADO 82CV",
-   "corInterna": "Jet Black",
-   "unidades": 1,
-   "locais": [
-    "Tangará da Serra"
-   ],
-   "refs": [
-    "227628"
-   ],
-   "reservado": false,
-   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/mt/exterior/azulboreal/onix-10-mt-azul-boreal-ext.001.png?imwidth=960",
-   "imgChave": "ONIX HATCH MT|AZUL BOREAL",
-   "imgExata": true
-  },
-  {
-   "id": "onix-onix-hatch-mt-preto-ouro-negro-1",
+   "id": "onix-onix-hatch-mt-preto-ouro-negro-0",
    "familia": "onix",
    "familiaNome": "Onix",
    "modelo": "Onix Hatch MT",
@@ -90,8 +68,8 @@
     "133223",
     "133305",
     "164462",
-    "186543",
     "186547",
+    "186543",
     "203608"
    ],
    "reservado": false,
@@ -100,7 +78,7 @@
    "imgExata": true
   },
   {
-   "id": "onix-onix-hatch-mt-pro-preto-ouro-negro-2",
+   "id": "onix-onix-hatch-mt-pro-preto-ouro-negro-1",
    "familia": "onix",
    "familiaNome": "Onix",
    "modelo": "Onix Hatch MT Pro",
@@ -122,7 +100,7 @@
    "imgExata": true
   },
   {
-   "id": "onix-onix-hatch-turbo-activ-branco-summit-3",
+   "id": "onix-onix-hatch-turbo-activ-branco-summit-2",
    "familia": "onix",
    "familiaNome": "Onix",
    "modelo": "Onix Hatch Turbo Activ",
@@ -144,31 +122,7 @@
    "imgExata": true
   },
   {
-   "id": "onix-onix-hatch-turbo-activ-prata-shark-4",
-   "familia": "onix",
-   "familiaNome": "Onix",
-   "modelo": "Onix Hatch Turbo Activ",
-   "cor": "Prata Shark",
-   "ano": "26/27",
-   "combustivel": "Flex",
-   "motor": "1.0L TURBO 115 CV",
-   "corInterna": "Jet Black",
-   "unidades": 2,
-   "locais": [
-    "Campo Novo do Parecis",
-    "Tangará da Serra"
-   ],
-   "refs": [
-    "180080",
-    "185353"
-   ],
-   "reservado": false,
-   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix/refresh/colorizer/trims/activ/exterior/pratashark/onix-activ-prata-shark-ext.001.png?imwidth=960",
-   "imgChave": "ONIX HATCH TURBO ACTIV|PRATA SHARK",
-   "imgExata": true
-  },
-  {
-   "id": "onix-onix-hatch-turbo-activ-preto-ouro-negro-5",
+   "id": "onix-onix-hatch-turbo-activ-preto-ouro-negro-3",
    "familia": "onix",
    "familiaNome": "Onix",
    "modelo": "Onix Hatch Turbo Activ",
@@ -190,7 +144,7 @@
    "imgExata": true
   },
   {
-   "id": "onix-onix-hatch-turbo-eco-azul-boreal-6",
+   "id": "onix-onix-hatch-turbo-eco-azul-boreal-4",
    "familia": "onix",
    "familiaNome": "Onix",
    "modelo": "Onix Hatch Turbo Eco",
@@ -212,7 +166,7 @@
    "imgExata": true
   },
   {
-   "id": "onix-onix-hatch-turbo-premier-branco-summit-7",
+   "id": "onix-onix-hatch-turbo-premier-branco-summit-5",
    "familia": "onix",
    "familiaNome": "Onix",
    "modelo": "Onix Hatch Turbo Premier",
@@ -234,7 +188,7 @@
    "imgExata": true
   },
   {
-   "id": "onix-onix-hatch-turbo-premier-prata-shark-8",
+   "id": "onix-onix-hatch-turbo-premier-prata-shark-6",
    "familia": "onix",
    "familiaNome": "Onix",
    "modelo": "Onix Hatch Turbo Premier",
@@ -256,7 +210,7 @@
    "imgExata": true
   },
   {
-   "id": "onixplus-onix-plus-turbo-eco-vermelho-scarlet-9",
+   "id": "onixplus-onix-plus-turbo-eco-vermelho-scarlet-7",
    "familia": "onixplus",
    "familiaNome": "Onix Plus",
    "modelo": "Onix Plus Turbo Eco",
@@ -278,7 +232,29 @@
    "imgExata": true
   },
   {
-   "id": "tracker-tracker-at-branco-summit-10",
+   "id": "onixplus-onix-plus-turbo-premier-prata-shark-8",
+   "familia": "onixplus",
+   "familiaNome": "Onix Plus",
+   "modelo": "Onix Plus Turbo Premier",
+   "cor": "Prata Shark",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Acab Int(4h2) Jet Black / Tbd Accent",
+   "unidades": 1,
+   "locais": [
+    "Barra do Garças"
+   ],
+   "refs": [
+    "216851"
+   ],
+   "reservado": false,
+   "img": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/visid/cars/onix-plus/refresh/colorizer/trims/premier/exterior/pratashark/onix-premier-prata-shark-ext.001.png?imwidth=960",
+   "imgChave": "ONIX PLUS TURBO PREMIER|PRATA SHARK",
+   "imgExata": true
+  },
+  {
+   "id": "tracker-tracker-at-branco-summit-9",
    "familia": "tracker",
    "familiaNome": "Tracker",
    "modelo": "Tracker AT",
@@ -287,7 +263,7 @@
    "combustivel": "Flex",
    "motor": "1.0L TURBO 115 CV",
    "corInterna": "Jet Black",
-   "unidades": 5,
+   "unidades": 6,
    "locais": [
     "Barra do Garças",
     "Nova Mutum",
@@ -296,13 +272,36 @@
    "refs": [
     "125638",
     "136640",
-    "147155",
     "147154",
-    "167603"
+    "147155",
+    "167603",
+    "163201"
    ],
    "reservado": false,
    "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GAZ-0001.webp",
    "imgChave": "TRACKER AT|BRANCO SUMMIT",
+   "imgExata": true
+  },
+  {
+   "id": "tracker-tracker-at-cinza-ambar-10",
+   "familia": "tracker",
+   "familiaNome": "Tracker",
+   "modelo": "Tracker AT",
+   "cor": "Cinza Âmbar",
+   "ano": "26/27",
+   "combustivel": "Flex",
+   "motor": "1.0L TURBO 115 CV",
+   "corInterna": "Jet Black",
+   "unidades": 1,
+   "locais": [
+    "Em trânsito"
+   ],
+   "refs": [
+    "166267"
+   ],
+   "reservado": false,
+   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5X76DV_R8E/GEK-0001.webp",
+   "imgChave": "TRACKER AT|CINZA AMBAR",
    "imgExata": true
   },
   {
@@ -352,25 +351,26 @@
    "imgExata": true
   },
   {
-   "id": "tracker-tracker-rs-branco-summit-13",
+   "id": "tracker-tracker-premier-prata-shark-13",
    "familia": "tracker",
    "familiaNome": "Tracker",
-   "modelo": "Tracker RS",
-   "cor": "Branco Summit",
+   "modelo": "Tracker Premier",
+   "cor": "Prata Shark",
    "ano": "26/27",
    "combustivel": "Flex",
    "motor": "1.2 TURBO - 141CV",
-   "corInterna": "Jet Black",
-   "unidades": 1,
+   "corInterna": "Jet Black Bege Medium Dark Cocoa",
+   "unidades": 2,
    "locais": [
-    "Barra do Garças"
+    "Em trânsito"
    ],
    "refs": [
-    "147492"
+    "109335",
+    "109352"
    ],
    "reservado": false,
-   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5D76TV_RG0/GAZ-0001.webp",
-   "imgChave": "TRACKER RS|BRANCO SUMMIT",
+   "img": "https://vedo.ext.gm.com/asset-gateway/f9e8695d-bae7-4c79-b6a6-261e1e40267c/optimized/2d/main-camera/5Y76TV_R8I/GR2-0001.webp",
+   "imgChave": "TRACKER PREMIER|PRATA SHARK",
    "imgExata": true
   },
   {
@@ -420,29 +420,7 @@
    "imgExata": true
   },
   {
-   "id": "sonic-sonic-premier-prata-shark-16",
-   "familia": "sonic",
-   "familiaNome": "Sonic",
-   "modelo": "Sonic Premier",
-   "cor": "Prata Shark",
-   "ano": "26/27",
-   "combustivel": "Flex",
-   "motor": "1.0L TURBO 115 CV",
-   "corInterna": "Jet Black e Cinza Storm Sky",
-   "unidades": 1,
-   "locais": [
-    "Campo Novo do Parecis"
-   ],
-   "refs": [
-    "174962"
-   ],
-   "reservado": false,
-   "img": "https://cgi.chevrolet.com/mmgprod-us/dynres/prove/image.gen?country=BR&std=true&v=deg01&i=2027%2F1EE58%2F1EE58__PR1%2FCV2_GR2_H2G_MDV_V8Bgmds2.jpg&transparentBackgroundPng=true",
-   "imgChave": "SONIC PREMIER|PRATA SHARK",
-   "imgExata": true
-  },
-  {
-   "id": "sonic-sonic-premier-preto-ouro-negro-17",
+   "id": "sonic-sonic-premier-preto-ouro-negro-16",
    "familia": "sonic",
    "familiaNome": "Sonic",
    "modelo": "Sonic Premier",
@@ -466,7 +444,7 @@
    "imgExata": true
   },
   {
-   "id": "sonic-sonic-rs-branco-summit-18",
+   "id": "sonic-sonic-rs-branco-summit-17",
    "familia": "sonic",
    "familiaNome": "Sonic",
    "modelo": "Sonic RS",
@@ -491,7 +469,7 @@
    "imgExata": true
   },
   {
-   "id": "sonic-sonic-rs-cinza-urbano-19",
+   "id": "sonic-sonic-rs-cinza-urbano-18",
    "familia": "sonic",
    "familiaNome": "Sonic",
    "modelo": "Sonic RS",
@@ -513,7 +491,7 @@
    "imgExata": true
   },
   {
-   "id": "sonic-sonic-rs-vermelho-scarlet-20",
+   "id": "sonic-sonic-rs-vermelho-scarlet-19",
    "familia": "sonic",
    "familiaNome": "Sonic",
    "modelo": "Sonic RS",
@@ -535,7 +513,7 @@
    "imgExata": true
   },
   {
-   "id": "spark-spark-euv-azul-atlantico-21",
+   "id": "spark-spark-euv-azul-atlantico-20",
    "familia": "spark",
    "familiaNome": "Spark EUV",
    "modelo": "Spark EUV",
@@ -546,7 +524,7 @@
    "corInterna": "Sandy Soul",
    "unidades": 1,
    "locais": [
-    "Em trânsito"
+    "Tangará da Serra"
    ],
    "refs": [
     "073071"
@@ -557,7 +535,7 @@
    "imgExata": true
   },
   {
-   "id": "spark-spark-euv-branco-cupuacu-22",
+   "id": "spark-spark-euv-branco-cupuacu-21",
    "familia": "spark",
    "familiaNome": "Spark EUV",
    "modelo": "Spark EUV",
@@ -579,7 +557,7 @@
    "imgExata": true
   },
   {
-   "id": "spark-spark-euv-preto-rio-negro-23",
+   "id": "spark-spark-euv-preto-rio-negro-22",
    "familia": "spark",
    "familiaNome": "Spark EUV",
    "modelo": "Spark EUV",
@@ -603,7 +581,7 @@
    "imgExata": true
   },
   {
-   "id": "s10-s10-ltz-cd-4x4-branco-dunas-24",
+   "id": "s10-s10-ltz-cd-4x4-branco-dunas-23",
    "familia": "s10",
    "familiaNome": "S10",
    "modelo": "S10 LTZ CD 4X4",
